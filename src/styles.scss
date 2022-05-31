@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+/*Global Variables*/
+$background-color: #E3E9FF;
+$primary-color: #AF7EEB;
+$secondary-color: #FFFFFF;
+$button-color: #FF002EEB;
+
+* {
+  font-weight: 400;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: $background-color;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 350px;
+  margin: 50px auto;
+}
+
+html, body { height: 100%; }
+

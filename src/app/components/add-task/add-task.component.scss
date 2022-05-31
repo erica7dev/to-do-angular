@@ -1,0 +1,36 @@
+
+@import "../../../styles.scss";
+
+input {
+  display: block;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  border: none;
+  width: 300px;
+  height: 40px;
+  margin-top: -15px;
+  margin-bottom: 20px;
+  padding: 15px 0;
+  background-color: $primary-color;
+  text-align: center;
+  font-size: 18px;
+}
+
+input[type=text] {
+  color: $secondary-color;
+  font-weight: 400;
+}
+
+::placeholder {
+  color: $secondary-color;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: $secondary-color;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: $secondary-color;
+}
